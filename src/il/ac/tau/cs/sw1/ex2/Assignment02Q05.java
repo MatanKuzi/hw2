@@ -15,7 +15,7 @@ public class Assignment02Q05 {
 		for(int i=0;i < N; i++)
 			System.out.println(Arrays.toString(matrix[i]));
 		System.out.println("");
-		int[][] RotatedMatrix; // the transposed matrix
+		int[][] rotatedMatrix; // the transposed matrix
 		
 		// your code goes here below
 
@@ -25,7 +25,7 @@ public class Assignment02Q05 {
 		
 		// do not change this part below
 		for(int i=0;i < N; i++){ 
-			System.out.println(Arrays.toString(RotatedMatrix[i])); // this would compile after you would put value in transposedMatrix
+			System.out.println(Arrays.toString(rotatedMatrix[i])); // this would compile after you would put value in transposedMatrix
 		}
 	}
 }
